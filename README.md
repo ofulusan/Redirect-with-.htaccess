@@ -6,4 +6,4 @@ RewriteCond %{HTTP_HOST} ^blog.ofulu.com [NC]
 RewriteRule ^(.*)$ https://ofulu.com/ [L,R=301]
 ````
 
-このコードではblog.ofulu.comにアクセスされたときにhttps://ofulu.comにリダイレクトされます。
+このコードではblog.ofulu.comにアクセスされたときに https://ofulu.com にリダイレクトされます。
